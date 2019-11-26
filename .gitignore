@@ -1,0 +1,57 @@
+# Logs, Temp and IDE
+.idea
+logs
+*.log
+npm-debug.log*
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.npmrc
+1.txt
+.vagrant
+.serverless_plugins
+package/
+# Runtime data
+pids
+*.pid
+*.seed
+tag.json
+.DS_Store
+# Test and coverage
+coverage
+lib-cov
+.nyc_output
+code-analysis-reports
+reports
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Builds
+dist/
+build/
+.serverless/
+*-function.json
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+node_modules

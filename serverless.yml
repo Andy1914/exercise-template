@@ -1,0 +1,27 @@
+service: yolobe-template-azfx-${opt:stage}
+
+provider:
+  name: azure
+  location: West US
+
+plugins:
+  - serverless-azure-functions
+  - serverless-webpack
+  
+package:
+  exclude:
+    - node_modules/**
+    - .gitignore
+    - package.json
+    - .git/**
+
+functions:
+  echo:
+     handler: src/index.echo
+     events:
+       - http: true
+         x-azure-settings:
+           authLevel: anonymous
+           methods: #<array> [GET, POST, PUT, DELETE], default - all
+                - get
+           route: echo/{action:alpha} #<string>, default - <function name>

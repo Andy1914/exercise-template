@@ -1,0 +1,30 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "node/node.d.ts": {
+      "commit": "421f98c654d93ba838e25c0067e8be57fe83b934"
+    },
+    "q/Q.d.ts": {
+      "commit": "741430a178043bfca40e3a343b8b6f7610104093"
+    },
+    "archiver/archiver.d.ts": {
+      "commit": "741430a178043bfca40e3a343b8b6f7610104093"
+    },
+    "orchestrator/orchestrator.d.ts": {
+      "commit": "741430a178043bfca40e3a343b8b6f7610104093"
+    },
+    "gulp/gulp.d.ts": {
+      "commit": "741430a178043bfca40e3a343b8b6f7610104093"
+    },
+    "mssql/mssql.d.ts": {
+      "commit": "741430a178043bfca40e3a343b8b6f7610104093"
+    },
+    "aws-sdk/aws-sdk.d.ts": {
+      "commit": "421f98c654d93ba838e25c0067e8be57fe83b934"
+    }
+  }
+}
