@@ -1,7 +1,8 @@
-
 import * as routes from "./handlers/handlers";
 import * as response from "./lib/http-responses";
+import * as server from './core/server';
 
+const port = process.env.PORT || 5000;
 
 let handlers = {};
 
@@ -25,3 +26,5 @@ export const echo = function (context, req) {
       context.done(null, { body: JSON.stringify(response), status: response.code });
   }
 };
+
+server.init(port);
